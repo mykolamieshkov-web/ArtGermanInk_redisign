@@ -13,8 +13,78 @@
    <!-- @media only screen and (min-width:500px) and (orientation:landscape) { -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="shortcut icon" href="img/logo_white-1.PNG" type="image/png">
+
+<script>
+   /* When the user clicks on the button, 
+   toggle between hiding and showing the dropdown content */
+   function myFunction() {
+     document.getElementById("myDropdown").classList.toggle("show");
+   }
+   
+   // Close the dropdown if the user clicks outside of it
+   window.onclick = function(event) {
+     if (!event.target.matches('.dropbtn')) {
+       var dropdowns = document.getElementsByClassName("dropdown-content");
+       var i;
+       for (i = 0; i < dropdowns.length; i++) {
+         var openDropdown = dropdowns[i];
+         if (openDropdown.classList.contains('show')) {
+           openDropdown.classList.remove('show');
+         }
+       }
+     }
+   }
+   </script>
 </head>
 <body>
+ <div class="nav">
+   <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#home">Welcome</a>
+        <a href="#about">Our Artists</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#loc">Location</a>
+      </div>
+    </div>
+   <img id="logo"src="img/logo_white-1.PNG" alt="">
+   <img id="dragon" src="img/dragon_tattoo.PNG"> 
+ </div> <!-- nav div closed -->
+  <div class="banner"></div><!--banner closed  -->
+  <div id="home" class="Welcome_banner">
+    <p>Welcome to the new German Ink art of Erbil.<br> Fashion, art, creativity can be everything – but if you love colors, your skin and to be more individual – you are absolutely right in our temple of creation!<br> Our Artist are guest artist in Germany and come from all over the world.<br> Its our pleasure to have them also here in Erbil now!!<br> We want to introduce this amazing professional tattoo artists</p>
+  </div ><!-- welcome_banner closed -->
+  <div class="boxes_section">
+    <div class="box">
+      <h1>Consultation</h1>
+      <img src="img/icons/1_icon.PNG" alt="">
+    <p>We offer you a wide selection of highly specialized artists in various styles.<br> Of course, there is also an expert for your request.<br> So that you land in the right hands, you will consult with your tattoo wish and our available artists and arrange an appointment together with you.<br> By the way: Due to our first-class network, we always have short-term top artists available for you.
+
+    </p></div>
+    <div class="box">
+      <h1>Meeting</h1>
+      <img src="img/icons/2_icon.PNG" alt="">
+    <p>Your chosen artist prepares an individual design in advance for you and will discuss this with you at the beginning of your appointment, there is also time for change requests.<br> In preparation for your appointment you will receive from us a leaflet, which provides you with all the necessary and noteworthy information,<br> so that the appointment runs as best as possible fo<br> you.</p>
+    </div>
+    <div class="box">
+      <h1>Tattoo</h1>
+      <img src="img/icons/3_icon.PNG" alt="">
+    <p>In our studio we work exclusively with professional equipment and disposable materials for a hygienic environment.<br> Our in-house, strict hygiene controls ensure maximum safety for you and your health.<br> In addition, we also offer you professional products for the aftercare of your fresh tattoo.<br> Care is important for first-class result</p>
+    </div>
+  </div><!-- boxes_section closed -->
+  <div class="slideshow_gallery">
    
+  </div> <!-- gallery div closed -->
+  <div id="contact" class="contact_us">
+    <h1>CONTACT US</h1>
+    <br>
+    <br>
+    <p>Feel free to contact us by mail (info@artgermanink.com)</p>
+  </div><!-- contact us closed -->
+  <div id="loc" class="location">
+    <h1>LOCATION</h1>
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12876.862338999388!2d43.9791617!3d36.2099546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3093c3253b76b4bd!2sArt%20German%20Ink!5e0!3m2!1sru!2siq!4v1667568018769!5m2!1sru!2siq" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div><!-- location -->
 </body>
 </html>
