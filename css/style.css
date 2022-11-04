@@ -91,9 +91,10 @@ body {
   .banner {
     width: 100vw;
     background-size: 50%;
-    zoom: 50%;
+    
   }
-}.Welcome_banner {
+}
+.Welcome_banner {
   width: 100%;
   height: fit-content;
   text-align: center;
