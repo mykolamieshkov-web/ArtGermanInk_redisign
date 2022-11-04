@@ -90,6 +90,7 @@ body {
  @media (max-width:480px) and (min-width:1024px) { 
   .banner {
     width: 100vw;
+    background-size: 50%;
   }
 }.Welcome_banner {
   width: 100%;
