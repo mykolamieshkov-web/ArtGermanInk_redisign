@@ -91,6 +91,7 @@ body {
   .banner {
     width: 100vw;
     background-size: 50%;
+    zoom: 50%;
   }
 }.Welcome_banner {
   width: 100%;
