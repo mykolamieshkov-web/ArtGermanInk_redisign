@@ -90,7 +90,8 @@ body {
  @media (max-width:1024px) and (min-width:840px) { 
   .banner {
     width: 100vw;
-    background-size:10%;
+    background-size:cover;
+    background-position: auto;
     
   }
   .container_wrap {
