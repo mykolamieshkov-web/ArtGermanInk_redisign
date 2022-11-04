@@ -93,6 +93,14 @@ body {
     background-size: 50%;
     
   }
+  .container_wrap {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+   body {
+    zoom: 75%;
+   }
 }
 .Welcome_banner {
   width: 100%;
