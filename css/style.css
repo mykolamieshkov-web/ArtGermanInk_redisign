@@ -24,7 +24,7 @@ body {
    height: 40px;
    filter:drop-shadow(8px 8px 4px #b48811) ;
 }
-@media (max-width:480px) and (min-width:1024px) { 
+@media (max-width:1024px) and (min-width:840px) { 
   .nav {
    width: 100vw;
    height: 120px;
@@ -87,10 +87,10 @@ body {
   border-bottom: 2px solid #b48811;
   background-attachment: fixed;
  }
- @media (max-width:480px) and (min-width:1024px) { 
+ @media (max-width:1024px) and (min-width:840px) { 
   .banner {
     width: 100vw;
-    background-size: 50%;
+    background-size:10%;
     
   }
   .container_wrap {
